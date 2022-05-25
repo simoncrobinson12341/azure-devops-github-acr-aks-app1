@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'SCR.default'
+    environment: 'SCR'
     strategy:
       runOnce:
         deploy:
