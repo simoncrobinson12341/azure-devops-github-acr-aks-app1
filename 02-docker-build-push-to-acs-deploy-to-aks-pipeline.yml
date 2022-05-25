@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'stacksimplifyazuredevopsgithubacraksapp1.default'
+    environment: 'SCR.default'
     strategy:
       runOnce:
         deploy:
